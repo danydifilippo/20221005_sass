@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primo progetto Sass</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
-      <img src="./assets/img/what-is-brand.png" alt="what-is-brand picture" />
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+        <div class="btns d-flex gap-2 justify-content-center align-items-center">
+          <button type="button" onclick="color()" class="btn btn-outline-primary fs-3">Color</button>
+          <button type="button" onclick="image()" class="btn btn-outline-success fs-3">Image</button>
+        </div>
+        <div class="image"></div>
+      </div>
     </header>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

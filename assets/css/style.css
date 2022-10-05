@@ -1,3 +1,14 @@
+body .container-fluid {
+  width: 100vw;
+  height: 100vh;
+}
 
+.btn {
+  mix-blend-mode: difference;
+  width: 50%;
+}
 
-/*# sourceMappingURL=style.css.map */
+.image {
+  margin-top: 20px;
+  height: 40%;
+}
